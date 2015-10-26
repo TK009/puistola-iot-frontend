@@ -1,0 +1,52 @@
+
+.hotspot.info { /* double size, hack */
+    background-size: cover;
+    background-position: 0 -208px;
+    width: 52px;
+    height: 52px;
+    box-sizing: border-box;
+    padding-left: 26px;
+    border-radius: 26px;
+    /*
+}
+.hotspot.ok {
+*/
+    background-color: rgba(0, 255, 0, 0.6);
+    /* shadow for fun */
+    -webkit-filter: drop-shadow(0px 0px 6px rgba(100, 255, 100, 1.0));
+}
+.hotspot.danger {
+    background-color: rgba(255, 0, 0, 0.6);
+    /* shadow for fun */
+    -webkit-filter: drop-shadow(0px 0px 6px rgba(255, 100, 100, 1.0));
+}
+ 
+.hotspot span {
+    -webkit-transition: background-color 0.5s;
+}
+
+/*
+.hotspot:hover span {
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display:none; 
+        opacity: 0;
+
+    }
+
+    1% {
+        display: block ; 
+        opacity: 0;
+
+    }
+
+    100% {
+        display: block ; 
+        opacity: 1;
+
+    }
+
+}
+*/

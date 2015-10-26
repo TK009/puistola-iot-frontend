@@ -1,0 +1,49 @@
+{
+    "autoLoad" : true,
+    "header" : "<link rel=\"stylesheet\" href=\"iot-panorama.css\" type=\"text/css\"><script src=\"iot-panorama.js\"></script>",
+    "yaw" : 0,
+    "pitch" : 0,
+    "hfov" : 90,
+    "panorama" : "./keittio-equirect-low.jpg",
+    "haov" : 155,
+    "vaov" : 70,
+    "vOffset" : 0,
+    "hotSpots" : [
+        {
+            "pitch" : -20,
+            "yaw" : 60,
+            "type" : "info",
+            "text" : "parvekeruukku1</br>Vesitilanne: OK"
+        },
+        {
+            "pitch" : -25,
+            "yaw" : 40,
+            "type" : "info",
+            "text" : "parvekeruukku2</br>Vesitilanne: OK"
+        },
+        {
+            "pitch" : -20,
+            "yaw" : 10,
+            "type" : "info",
+            "text" : "valkoinenIsoRuukku1</br>Vesitilanne: OK"
+        },
+        {
+            "pitch" : 12,
+            "yaw" : 30,
+            "type" : "info",
+            "text" : "roikkuPullo1</br>Vesitilanne: OK"
+        },
+        {
+            "pitch" : 12,
+            "yaw" : 13,
+            "type" : "info",
+            "text" : "roikkuPullo2</br>Vesitilanne: OK"
+        },
+        {
+            "pitch" : 16,
+            "yaw" : -42,
+            "type" : "info",
+            "text" : "hyllyruukku1</br>Vesitilanne: OK"
+        }
+    ]
+}
